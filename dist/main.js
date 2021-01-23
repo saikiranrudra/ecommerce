@@ -1,1 +1,1 @@
-console.log("Hello World...");
+(()=>{var r={755:r=>{r.exports.progressCalculate=r=>{let e=0,t=Object.keys(r).length;for(key in r)r[key]&&e++;return Math.round(e/t*100)},r.exports.progressUI=(r,e)=>{r.style.width=`${e}%`}}},e={};!function t(s){if(e[s])return e[s].exports;var o=e[s]={exports:{}};return r[s](o,o.exports,t),o.exports}(755)})();

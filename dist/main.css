@@ -1,3 +1,33 @@
-.btn__primary {
-  background-color: #9E00FF;
-  color: #FFFBFB; }
+.heading1 {
+  font-size: 8.31rem;
+  font-weight: bold;
+  color: #3E4350; }
+
+.heading2 {
+  font-size: 4.15rem;
+  font-weight: bold;
+  color: #3E4350; }
+
+/*Components*/
+.btn {
+  padding: 1rem;
+  background-origin: padding-box; }
+  .btn__primary {
+    background-color: #9E00FF; }
+
+/* Parent component */
+.progress_bar {
+  width: 100%;
+  background-color: #DFDFDF;
+  height: 1rem;
+  border-radius: 1rem; }
+
+/* bar which will increase/decrease */
+.progress {
+  width: 0;
+  height: 1rem;
+  background-image: linear-gradient(to left, #FF00E5, #9E00FF);
+  transition-property: width;
+  transition-duration: .3s;
+  border-radius: 1rem;
+  transition-timing-function: ease-in; }

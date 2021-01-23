@@ -1,0 +1,18 @@
+ /* Parent component */
+.progress_bar {
+    width: 100%;
+    background-color: $color-input-background;
+    height: 1rem;
+    border-radius: 1rem;
+}
+
+/* bar which will increase/decrease */
+.progress {
+    width: 0;
+    height: 1rem;
+    background-image: linear-gradient(to left, $color-secondary, $color-primary) ;
+    transition-property: width;
+    transition-duration: .3s;
+    border-radius: 1rem;
+    transition-timing-function: ease-in;
+}

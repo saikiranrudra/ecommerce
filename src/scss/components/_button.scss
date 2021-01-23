@@ -1,0 +1,13 @@
+.btn {
+    padding: 1rem;
+    background-origin: padding-box;
+
+    &__primary {
+       background-color: $color-primary;
+    }
+}
+
+// .btn__primary {
+//     background-color: $color-primary;
+//     color: $color-text-white;
+// }
