@@ -1,6 +1,6 @@
 ## E Commerce Solution
 
-## 1. Tools to be installed before contrubuting
+## 1. Tools to be installed before contributing
 1. nodejs [click here to download](https://nodejs.org/en/) **download lts version**
 2. yarn [installation guide](https://www.youtube.com/watch?v=YMy_yrbsU8w)
 
@@ -29,4 +29,5 @@
 ❌❌**DONT PUSH YOUR CODE IF TEST FOR YOUR CODE IS NOT PASSED**❌❌
 
 5. All the code you write should be pushed to **dev** branch do not push to **master** branch
+6. Things to do is mention in **projects** section
 
