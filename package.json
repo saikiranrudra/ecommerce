@@ -1,0 +1,22 @@
+{
+  "name": "ccommerce",
+  "version": "1.0.0",
+  "description": "General Purpose Ecommerce site",
+  "author": "Saikiran Rudra",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "compile:scss": "node-sass --include-path scss ./src/main.scss ./dist/main.css",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
