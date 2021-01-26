@@ -6,7 +6,7 @@
   font-family: 'Open Sans', sans-serif; }
 
 .heading1 {
-  font-size: 8.31rem;
+  font-size: 6.3rem;
   font-weight: bold;
   color: #3E4350; }
 
@@ -14,6 +14,11 @@
   font-size: 4.15rem;
   font-weight: bold;
   color: #3E4350; }
+
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1.2rem 0 .6rem 0; }
 
 /*Components*/
 .btn_primary {
@@ -26,6 +31,8 @@
   text-transform: uppercase;
   font-size: 0.9rem;
   text-decoration: none;
+  outline: none;
+  border: none;
   transition-property: opacity;
   transition-duration: .1s; }
 
@@ -41,6 +48,7 @@
   text-transform: uppercase;
   font-size: 0.9rem;
   text-decoration: none;
+  border-radius: .2rem;
   transition-property: border-bottom;
   transition-duration: .1s; }
 
@@ -64,3 +72,22 @@
   transition-duration: .3s;
   border-radius: 1rem;
   transition-timing-function: ease-in; }
+
+.auth_nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem; }
+
+.auth__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  align-items: center; }
+
+.nav-and-content__container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; }
+
+.navigation_btns > a {
+  margin: 0 .5rem; }

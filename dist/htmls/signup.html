@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoe Store -- Sign Up</title>
-    <link rel="stylesheet" href="./../main.css" >
+    <link rel="stylesheet" href="./../main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="nav-and-content__container">
+        <!-- Auth Navigation -->
+        <nav 
+            class="auth_nav">
+            <img src="./../assets/logo.png" alt="logo">
+            
+            <div class="navigation_btns">
+                <a href="#" class="btn_secondary">About Us</a>
+                <a href="#" class="btn_primary">Contact Us</a>
+            </div>
+        </nav>
+
+        <div 
+            class="auth__container"
+            style="flex: 1;"
+        >
+            <div style="margin-left: 1rem;">
+                <p class="heading2">Sign Up</p>
+                <br><br><br>
+                <img 
+                    src="./../assets/signup_illustration.svg" 
+                    alt="Sign In Illustrator"
+                    style="width: 80%;"
+                >
+            </div>
+            <div>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Email" class="input">
+                    <br>
+                    <input type="text" name="username" placeholder="Username" class="input">
+                    <br>
+                    <input type="password" name="password" placeholder="Password" class="input">
+                    <br>
+                    <p class="title">ADDRESS</p>
+                    <input type="text" name="street" placeholder="Street" class="input">
+                    <br>
+                    <input type="text" name="landmark" placeholder="Landmark" class="input">
+                    <br>
+                    <input type="number" name="pincode" placeholder="Post Code" class="input">
+                    <br>
+                    <input type="text" name="city" placeholder="City" class="input">
+                    <br>
+                    <input type="text" name="state" placeholder="State" class="input">
+                    <br>
+                    <input type="number" name="mobilenumber" placeholder="Mobile Number" class="input">
+                    <br><br>
+                    <div class="progress_bar">
+                        <div class="progress"></div>
+                    </div>
+                    <br>
+                    <input type="submit" value="Sign Up" class="btn_primary">
+                </form>
+            </div>
+        </div>
+    </div>
     <script defer src="./../main.js"></script>
 </body>
 </html>

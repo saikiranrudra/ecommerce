@@ -13,3 +13,10 @@
 /*Components*/
 @import "./scss/components/button";
 @import "./scss/components/progressbar";
+
+// Layouts
+@import "./scss/layouts/nav";
+@import "./scss/layouts/auth";
+@import "./scss/layouts/general";
+
+@import "./scss/utils";

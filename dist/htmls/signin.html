@@ -9,8 +9,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <a href="#" class="btn_primary">Sign In</a>
-    <a href="#" class="btn_secondary">Sign Up</a>
+    <div class="nav-and-content__container">
+        <!-- Auth Navigation -->
+        <nav 
+            class="auth_nav">
+            <img src="./../assets/logo.png" alt="logo">
+            
+            <div class="navigation_btns">
+                <a href="#" class="btn_secondary">About Us</a>
+                <a href="#" class="btn_primary">Contact Us</a>
+            </div>
+        </nav>
+
+        <div 
+            class="auth__container"
+            style="flex: 1;"
+        >
+            <div>
+                <img 
+                    src="./../assets/login_illustration.svg" 
+                    alt="Sign In Illustrator"
+                    style="width: 100%;"
+                >
+            </div>
+            <div>
+                <p class="heading1">Login</p>
+                <form action="#" method="post">
+                    <input type="text" name="username" placeholder="Username" class="input">
+                    <br>
+                    <input type="password" name="password" placeholder="password" class="input">
+                    <br>
+                    <input type="submit" value="Login" class="btn_primary">
+                    <br>
+                    <a href="#" class="btn_secondary">forgot password</a>
+                </form>
+            </div>
+        </div>
+    </div>
     <script defer src="./../main.js"></script>
 </body>
 </html>

@@ -8,6 +8,8 @@
     text-transform: uppercase;
     font-size: 0.9rem;
     text-decoration: none;
+    outline: none;
+    border: none;
 
     transition-property: opacity;
     transition-duration: .1s;
@@ -26,6 +28,7 @@
     text-transform: uppercase;
     font-size: 0.9rem;
     text-decoration: none;
+    border-radius: .2rem;
 
     transition-property: border-bottom;
     transition-duration: .1s;
