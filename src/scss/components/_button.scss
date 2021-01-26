@@ -1,13 +1,37 @@
-.btn {
-    padding: 1rem;
-    background-origin: padding-box;
+.btn_primary{
+    display: inline-block;
+    background-color: $color-primary;
+    border-radius: 4px;
+    padding: 0.6rem 1rem;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    text-decoration: none;
 
-    &__primary {
-       background-color: $color-primary;
-    }
+    transition-property: opacity;
+    transition-duration: .1s;
 }
 
-// .btn__primary {
-//     background-color: $color-primary;
-//     color: $color-text-white;
-// }
+/* primary button on hover */
+.btn_primary:hover{
+    opacity: 0.9;
+}
+
+/* secondary button.(clickable text) */
+.btn_secondary{
+    color: $color-primary;
+    padding: 0.6rem 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    text-decoration: none;
+
+    transition-property: border-bottom;
+    transition-duration: .1s;
+}
+
+/* secondary button hover */
+.btn_secondary:hover{
+    border-bottom: .2rem solid $color-primary;
+}

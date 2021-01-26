@@ -1,6 +1,15 @@
+// Root Styles
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
 @import "./scss/variables";
 @import "./scss/typography";
 
 /*Components*/
 @import "./scss/components/button";
-@import "./scss/components/progressbar"
+@import "./scss/components/progressbar";

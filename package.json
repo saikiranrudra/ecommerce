@@ -8,6 +8,7 @@
   "scripts": {
     "build": "webpack",
     "compile:scss": "node-sass --include-path scss ./src/main.scss ./dist/main.css",
+    "compile:scss:watch": "node-sass -w --include-path scss ./src/main.scss ./dist/main.css",
     "test": "mocha"
   },
   "devDependencies": {
