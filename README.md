@@ -30,3 +30,8 @@
 
 5. All the code you write should be pushed to **dev** branch do not push to **master** branch
 
+**For Live CSS Compiler**
+```commandline
+yarn run compile:scss:watch
+```
+
