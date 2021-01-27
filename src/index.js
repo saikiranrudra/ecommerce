@@ -1,2 +1,2 @@
-require("./scripts/progress");
-require("./scripts/authPage");
+// require("./scripts/progress");
+require("./scripts/SignupProgressbar");

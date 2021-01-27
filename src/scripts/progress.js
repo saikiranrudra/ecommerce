@@ -5,7 +5,7 @@ module.exports.progressCalculate = (object) => {
 
     // For each key if value is truty then count as fill
     for (key in object) {
-        if(object[key]) {
+        if(object[key] !== "") {
             count++;
         }
     }
@@ -18,3 +18,4 @@ module.exports.progressCalculate = (object) => {
 module.exports.progressUI = (progressElement, progressAmount) => {
     progressElement.style.width = `${progressAmount}%`
 }
+

@@ -10,7 +10,7 @@
     text-decoration: none;
     outline: none;
     border: none;
-
+    cursor: pointer;
     transition-property: opacity;
     transition-duration: .1s;
 }
@@ -29,7 +29,7 @@
     font-size: 0.9rem;
     text-decoration: none;
     border-radius: .2rem;
-
+    cursor: pointer;
     transition-property: border-bottom;
     transition-duration: .1s;
 }

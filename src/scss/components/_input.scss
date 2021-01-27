@@ -1,0 +1,14 @@
+.input {
+    padding: .8rem 1rem;
+    font-size: .95rem;
+    outline: none;
+    border: none;
+    background-color: $color-background-dark;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    width: 100%;
+
+    &::placeholder {
+        text-transform: uppercase;
+    }
+}
