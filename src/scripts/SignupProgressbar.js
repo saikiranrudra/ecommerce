@@ -27,8 +27,6 @@ let data = {
     mobilenumber: mobilenumber.value
 }
 
-//Testing
-console.log(data);
 
 let dataObj = new DataClass(data);
 

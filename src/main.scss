@@ -1,12 +1,3 @@
-// Root Styles
-*,
-*::after,
-*::before {
-    padding: 0;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-
 @import "./scss/variables";
 @import "./scss/typography";
 
@@ -21,3 +12,17 @@
 @import "./scss/layouts/general";
 
 @import "./scss/utils";
+
+// Root Styles
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*::selection {
+    background-color: $color-primary;
+    color: #ffffff;
+}
