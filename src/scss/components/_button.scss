@@ -1,4 +1,4 @@
-.btn_primary{
+.btn_primary {
     display: inline-block;
     background-color: $color-primary;
     border-radius: 4px;
@@ -16,12 +16,12 @@
 }
 
 /* primary button on hover */
-.btn_primary:hover{
+.btn_primary:hover {
     opacity: 0.9;
 }
 
 /* secondary button.(clickable text) */
-.btn_secondary{
+.btn_secondary {
     color: $color-primary;
     padding: 0.6rem 0;
     font-weight: 700;
@@ -35,6 +35,6 @@
 }
 
 /* secondary button hover */
-.btn_secondary:hover{
+.btn_secondary:hover {
     border-bottom: .2rem solid $color-primary;
 }

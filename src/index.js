@@ -1,2 +1,2 @@
-// require("./scripts/progress");
 require("./scripts/SignupProgressbar");
+require("./scripts/carousel");
