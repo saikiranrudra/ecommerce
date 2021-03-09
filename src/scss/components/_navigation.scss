@@ -1,3 +1,4 @@
+// Auth Page Nav Styles
 .navbar {
     padding: 1rem;
     background-color: $color-input-background;
@@ -12,4 +13,21 @@ li {
 
 a {
     text-decoration: none;
+}
+
+// Rest Pages Navigation
+
+.navigation {
+    display: flex;
+    padding: .5rem;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo > img{
+        width: 6rem; // logo width
+    }
+
+    &__links > li {
+        padding: 0rem .5rem;
+    }
 }
