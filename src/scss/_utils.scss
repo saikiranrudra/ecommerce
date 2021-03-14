@@ -3,7 +3,7 @@
 }
 
 .spacer {
-    padding: 1rem;
+    margin: 1rem;
 }
 
 .clickable {
@@ -13,4 +13,10 @@
     &:hover {
         transform: scale(.98);
     }
+}
+
+.horizontal__spacebetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

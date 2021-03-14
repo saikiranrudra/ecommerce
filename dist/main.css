@@ -205,7 +205,7 @@ a {
   margin: 0 .5rem; }
 
 .spacer {
-  padding: 1rem; }
+  margin: 1rem; }
 
 .clickable {
   cursor: pointer;
@@ -213,6 +213,11 @@ a {
   transition: transform .1s; }
   .clickable:hover {
     transform: scale(0.98); }
+
+.horizontal__spacebetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 *,
 *::after,
